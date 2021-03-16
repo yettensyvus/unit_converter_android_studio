@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alex.converter_2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".length_activity" />
+        <activity android:name=".temperature_activity" />
+        <activity android:name=".area_activity" />
+        <activity android:name=".speed_activity" />
+        <activity android:name=".volume_activity" />
+        <activity android:name=".weight_activity" />
+        <activity android:name=".time_activity" />
+        <activity android:name=".pressure_activity" />
+        <activity android:name=".power_activity" />
+        <activity android:name=".energy_activity" />
+        <activity android:name=".force_activity" />
+        <activity android:name=".AboutActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

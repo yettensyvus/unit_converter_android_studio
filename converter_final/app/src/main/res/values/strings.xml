@@ -1,0 +1,139 @@
+<resources>
+    <!--app strings-->
+    <string name="app_name">Unit Converter</string>
+
+    <!--drawer strings-->
+    <string name="nav_draw_open">Nav Draw Open</string>
+    <string name="nav_draw_close">Nav Draw Close</string>
+
+    <!--header strings-->
+    <string name="author_name">Alexandru Straton</string>
+
+    <!--menu left strings-->
+    <string name="m_about">About App</string>
+    <string name="about_text">În această aplicație veți putea converti cu ușurință temperatura, viteza, area, volumul, greutatea, distanța, timpul etc.</string>
+
+
+    <!--layout left strings-->
+    <string name="btn_calculate">CALCULATE</string>
+    <string name="btn_reset">RESET</string>
+    <string name="hint_amount">AMOUNT</string>
+
+    <!--menu strings-->
+    <string name="m_home">Home</string>
+    <string name="m_temperature">Temperature</string>
+    <string name="m_length">Length</string>
+    <string name="m_area">Area</string>
+    <string name="m_volume">Volume</string>
+    <string name="m_speed">Speed</string>
+    <string name="m_weight">Weight</string>
+    <string name="m_time">Time</string>
+    <string name="m_pressure">Pressure</string>
+    <string name="m_power">Power</string>
+    <string name="m_energy">Energy</string>
+    <string name="m_force">Force</string>
+
+
+    <!--calculator data strings-->
+    <string-array name="temperature_string">
+        <item>FAHRENHEIT</item>
+        <item>CELSIUS</item>
+    </string-array>
+
+    <string-array name="length_string">
+        <item>KILOMETRE</item>
+        <item>METRE</item>
+        <item>CENTIMETRE</item>
+        <item>MILLIMETRE</item>
+        <item>MICROMETRE</item>
+        <item>MILE</item>
+        <item>FOOT</item>
+        <item>INCH</item>
+    </string-array>
+
+    <string-array name="speed_string">
+        <item>MILES PER HOUR</item>
+        <item>FOOT PER SECOND</item>
+        <item>METRE PER SECOND</item>
+        <item>KILOMETRE PER HOUR</item>
+    </string-array>
+
+    <string-array name="weight_string">
+        <item>TONNE</item>
+        <item>KILOGRAM</item>
+        <item>GRAM</item>
+        <item>MILLIGRAM</item>
+        <item>MICROGRAM</item>
+        <item>POUND</item>
+        <item>OUNCE</item>
+    </string-array>
+
+    <string-array name="volume_string">
+        <item>LITRE</item>
+        <item>MILLILITRE</item>
+        <item>IMPERIAL GALLON</item>
+        <item>IMPERIAL CUP</item>
+        <item>CUBIC FOOT</item>
+        <item>CUBIC INCH</item>
+    </string-array>
+
+    <string-array name="area_string">
+        <item>SQUARE KILOMETRE</item>
+        <item>SQUARE METRE</item>
+        <item>SQUARE MILE</item>
+        <item>SQUARE FOOT</item>
+        <item>SQUARE INCH</item>
+        <item>HECTARE</item>
+    </string-array>
+
+    <string-array name="time_string">
+        <item>MILLISECOND</item>
+        <item>SECOND</item>
+        <item>MINUTE</item>
+        <item>HOUR</item>
+        <item>DAY</item>
+        <item>YEAR</item>
+    </string-array>
+
+    <string-array name="pressure_string">
+        <item>PASCAL</item>
+        <item>HECTOPASCAL</item>
+        <item>ATMOSPHERE</item>
+        <item>BAR</item>
+        <item>MILLIBAR</item>
+        <item>TORR</item>
+    </string-array>
+
+    <string-array name="power_string">
+        <item>WATT</item>
+        <item>MILLIWATT</item>
+        <item>KILOWATT</item>
+        <item>MEGAWATT</item>
+        <item>HORSEPOWER</item>
+        <item>BTU PER HOUR</item>
+        <item>KILOCALORIES PER HOUR</item>
+    </string-array>
+
+    <string-array name="energy_string">
+        <item>JOULE</item>
+        <item>MEGAJOULE</item>
+        <item>GIGAJOULE</item>
+        <item>CALORIES</item>
+        <item>KILOCALORIES</item>
+        <item>MEGACALORIES</item>
+        <item>THERM</item>
+        <item>QUAD</item>
+        <item>ELECTRONVOLT</item>
+    </string-array>
+
+    <string-array name="force_string">
+        <item>NEWTON</item>
+        <item>MICRONEWTON</item>
+        <item>MILLINEWTON</item>
+        <item>KILONEWTON</item>
+        <item>MEGANEWTON</item>
+        <item>DYNE</item>
+        <item>POUNDAL</item>
+    </string-array>
+
+</resources>

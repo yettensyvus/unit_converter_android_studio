@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/m_home" />
+
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/temperature"
+            android:title="@string/m_temperature" />
+
+
+        <item
+            android:id="@+id/nav_length"
+            android:icon="@drawable/length"
+            android:title="@string/m_length" />
+
+
+        <item
+            android:id="@+id/nav_area"
+            android:icon="@drawable/area"
+            android:title="@string/m_area" />
+
+        <item
+            android:id="@+id/nav_volume"
+            android:icon="@drawable/volume"
+            android:title="@string/m_volume" />
+
+        <item
+            android:id="@+id/nav_speed"
+            android:icon="@drawable/speed"
+            android:title="@string/m_speed" />
+
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/weight"
+            android:title="@string/m_weight" />
+
+        <item
+            android:id="@+id/nav_time"
+            android:icon="@drawable/time"
+            android:title="@string/m_time" />
+
+        <item
+            android:id="@+id/nav_pressure"
+            android:icon="@drawable/pressure"
+            android:title="@string/m_pressure" />
+
+        <item
+            android:id="@+id/nav_power"
+            android:icon="@drawable/power"
+            android:title="@string/m_power" />
+
+        <item
+            android:id="@+id/nav_energy"
+            android:icon="@drawable/energy"
+            android:title="@string/m_energy" />
+
+        <item
+            android:id="@+id/nav_force"
+            android:icon="@drawable/force"
+            android:title="@string/m_force" />
+
+    </group>
+</menu>
